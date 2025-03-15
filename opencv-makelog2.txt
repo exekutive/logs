@@ -1,0 +1,705 @@
+>make -j7 > makelog.txt             
+/Users/joe/stage/opencv3/3rdparty/libjasper/jas_debug.c:99:20: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   99 | int jas_getdbglevel()
+      |                    ^
+      |                     void
+/Users/joe/stage/opencv3/3rdparty/libjasper/jas_cm.c:174:43: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  174 | static jas_cmprof_t *jas_cmprof_createsycc()
+      |                                           ^
+      |                                            void
+/Users/joe/stage/opencv3/3rdparty/libjasper/jas_cm.c:311:39: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  311 | static jas_cmprof_t *jas_cmprof_create()
+      |                                       ^
+      |                                        void
+/Users/joe/stage/opencv3/3rdparty/libjasper/jas_cm.c:589:49: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  589 | static jas_cmpxformseq_t *jas_cmpxformseq_create()
+      |                                                 ^
+      |                                                  void
+/Users/joe/stage/opencv3/3rdparty/libjasper/jas_cm.c:720:44: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  720 | static jas_cmpxform_t *jas_cmpxform_create0()
+      |                                            ^
+      |                                             void
+/Users/joe/stage/opencv3/3rdparty/libjasper/jas_cm.c:749:50: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  749 | static jas_cmpxform_t *jas_cmpxform_createshapmat()
+      |                                                  ^
+      |                                                   void
+1 warning generated.
+/Users/joe/stage/opencv3/3rdparty/libjasper/jas_icc.c:205:41: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  205 | static jas_iccprof_t *jas_iccprof_create()
+      |                                         ^
+      |                                          void
+/Users/joe/stage/opencv3/3rdparty/libjasper/jas_icc.c:671:47: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  671 | static jas_iccattrtab_t *jas_iccattrtab_create()
+      |                                               ^
+      |                                                void
+/Users/joe/stage/opencv3/3rdparty/libjasper/jas_icc.c:920:48: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  920 | static jas_iccattrval_t *jas_iccattrval_create0()
+      |                                                ^
+      |                                                 void
+5 warnings generated.
+/Users/joe/stage/opencv3/3rdparty/libjasper/jas_image.c:186:31: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  186 | jas_image_t *jas_image_create0()
+      |                               ^
+      |                                void
+/Users/joe/stage/opencv3/3rdparty/libjasper/jas_image.c:239:48: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  239 | static jas_image_cmpt_t *jas_image_cmpt_create0()
+      |                                                ^
+      |                                                 void
+/Users/joe/stage/opencv3/3rdparty/libjasper/jas_image.c:514:25: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  514 | void jas_image_clearfmts()
+      |                         ^
+      |                          void
+3 warnings generated.
+3 warnings generated.
+/Users/joe/stage/opencv3/3rdparty/libjasper/jas_init.c:75:13: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   75 | int jas_init()
+      |             ^
+      |              void
+/Users/joe/stage/opencv3/3rdparty/libjasper/jas_init.c:159:17: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  159 | void jas_cleanup()
+      |                 ^
+      |                  void
+2 warnings generated.
+/Users/joe/stage/opencv3/3rdparty/zlib/inflate.c:1507:61: warning: shifting a negative signed value is undefined [-Wshift-negative-value]
+ 1507 |     if (strm == Z_NULL || strm->state == Z_NULL) return -1L << 16;
+      |                                                         ~~~ ^
+/Users/joe/stage/opencv3/3rdparty/libjasper/jas_stream.c:148:39: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  148 | static jas_stream_t *jas_stream_create()
+      |                                       ^
+      |                                        void
+/Users/joe/stage/opencv3/3rdparty/libjasper/jas_stream.c:344:33: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  344 | jas_stream_t *jas_stream_tmpfile()
+      |                                 ^
+      |                                  void
+2 warnings generated.
+1 warning generated.
+/Users/joe/stage/opencv3/3rdparty/libjasper/jas_version.c:64:27: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+   64 | const char *jas_getversion()
+      |                           ^
+      |                            void
+1 warning generated.
+/Users/joe/stage/opencv3/3rdparty/libjasper/jpc_bs.c:149:44: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  149 | static jpc_bitstream_t *jpc_bitstream_alloc()
+      |                                            ^
+      |                                             void
+/Users/joe/stage/opencv3/3rdparty/libjasper/jpc_cs.c:215:32: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  215 | jpc_cstate_t *jpc_cstate_create()
+      |                                ^
+      |                                 void
+/Users/joe/stage/opencv3/3rdparty/libjasper/jpc_dec.c:1955:29: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+ 1955 | jpc_dec_seg_t *jpc_seg_alloc()
+      |                             ^
+      |                              void
+/Users/joe/stage/opencv3/3rdparty/libjasper/jpc_dec.c:2041:40: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+ 2041 | jpc_streamlist_t *jpc_streamlist_create()
+      |                                        ^
+      |                                         void
+/Users/joe/stage/opencv3/3rdparty/libjasper/jpc_dec.c:2129:34: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+ 2129 | jpc_ppxstab_t *jpc_ppxstab_create()
+      |                                  ^
+      |                                   void
+/Users/joe/stage/opencv3/3rdparty/libjasper/jpc_dec.c:2286:40: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+ 2286 | jpc_ppxstabent_t *jpc_ppxstabent_create()
+      |                                        ^
+      |                                         void
+1 warning generated.
+1 warning generated.
+4 warnings generated.
+/Users/joe/stage/opencv3/3rdparty/libtiff/tif_compress.c:253:24: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  253 | TIFFGetConfiguredCODECs()
+      |                        ^
+      |                         void
+1 warning generated.
+/Users/joe/stage/opencv3/3rdparty/libjasper/jpc_t1cod.c:234:18: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  234 | void jpc_initluts()
+      |                  ^
+      |                   void
+/Users/joe/stage/opencv3/3rdparty/libjasper/jpc_t1cod.c:475:20: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  475 | void jpc_initmqctxs()
+      |                    ^
+      |                     void
+2 warnings generated.
+/Users/joe/stage/opencv3/3rdparty/libpng/pngrutil.c:3139:19: warning: performing pointer subtraction with a null pointer has undefined behavior [-Wnull-pointer-subtraction]
+ 3139 |                   png_isaligned(dp, png_uint_16) &&
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/joe/stage/opencv3/3rdparty/libpng/pngpriv.h:438:23: note: expanded from macro 'png_isaligned'
+  438 |    ((((const char*)ptr-(const char*)0) & (png_alignof(type)-1)) == 0)
+      |                       ^~~~~~~~~~~~~~~
+/Users/joe/stage/opencv3/3rdparty/libpng/pngrutil.c:3140:19: warning: performing pointer subtraction with a null pointer has undefined behavior [-Wnull-pointer-subtraction]
+ 3140 |                   png_isaligned(sp, png_uint_16) &&
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/joe/stage/opencv3/3rdparty/libpng/pngpriv.h:438:23: note: expanded from macro 'png_isaligned'
+  438 |    ((((const char*)ptr-(const char*)0) & (png_alignof(type)-1)) == 0)
+      |                       ^~~~~~~~~~~~~~~
+/Users/joe/stage/opencv3/3rdparty/libpng/pngrutil.c:3147:23: warning: performing pointer subtraction with a null pointer has undefined behavior [-Wnull-pointer-subtraction]
+ 3147 |                   if (png_isaligned(dp, png_uint_32) &&
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/joe/stage/opencv3/3rdparty/libpng/pngpriv.h:438:23: note: expanded from macro 'png_isaligned'
+  438 |    ((((const char*)ptr-(const char*)0) & (png_alignof(type)-1)) == 0)
+      |                       ^~~~~~~~~~~~~~~
+/Users/joe/stage/opencv3/3rdparty/libpng/pngrutil.c:3148:22: warning: performing pointer subtraction with a null pointer has undefined behavior [-Wnull-pointer-subtraction]
+ 3148 |                      png_isaligned(sp, png_uint_32) &&
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/joe/stage/opencv3/3rdparty/libpng/pngpriv.h:438:23: note: expanded from macro 'png_isaligned'
+  438 |    ((((const char*)ptr-(const char*)0) & (png_alignof(type)-1)) == 0)
+      |                       ^~~~~~~~~~~~~~~
+4 warnings generated.
+/Users/joe/stage/opencv3/3rdparty/libjasper/jpc_t2cod.c:534:25: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  534 | jpc_pi_t *jpc_pi_create0()
+      |                         ^
+      |                          void
+/Users/joe/stage/opencv3/3rdparty/libjasper/jpc_t2cod.c:554:36: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  554 | jpc_pchglist_t *jpc_pchglist_create()
+      |                                    ^
+      |                                     void
+2 warnings generated.
+/Users/joe/stage/opencv3/modules/core/src/arithm.cpp:1456:5: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 1456 |     sprintf(opts, "-D %s%s -D %s -D dstT=%s%s -D dstT_C1=%s -D workST=%s -D cn=%d -D rowsPerWI=%d",
+      |     ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/arithm.cpp:1831:5: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 1831 |     sprintf(opts, "-D %s%s -D %s -D srcT1=%s -D srcT1_C1=%s -D srcT2=%s -D srcT2_C1=%s "
+      |     ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/3rdparty/libjasper/jpc_tagtree.c:177:40: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  177 | static jpc_tagtree_t *jpc_tagtree_alloc()
+      |                                        ^
+      |                                         void
+1 warning generated.
+/Users/joe/stage/opencv3/3rdparty/libjasper/jpc_util.c:105:23: warning: comparing a pointer to a null character constant; did you mean to compare to NULL? [-Wpointer-compare]
+  105 |             if (cp != '\0') {
+      |                       ^~~~
+      |                       (void *)0
+/Users/joe/stage/opencv3/3rdparty/libjasper/jpc_util.c:123:27: warning: comparing a pointer to a null character constant; did you mean to compare to NULL? [-Wpointer-compare]
+  123 |                 if (cp != '\0') {
+      |                           ^~~~
+      |                           (void *)0
+2 warnings generated.
+2 warnings generated.
+/Users/joe/stage/opencv3/modules/core/src/ocl.cpp:5358:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 5358 |         sprintf(buf, "convert_%s", typestr);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/ocl.cpp:5361:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 5361 |         sprintf(buf, "convert_%s%s_rte", typestr, (ddepth < CV_32S ? "_sat" : ""));
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/ocl.cpp:5363:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 5363 |         sprintf(buf, "convert_%s_sat", typestr);
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+3 warnings generated.
+/Users/joe/stage/opencv3/modules/core/src/out.cpp:73:32: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   73 |         void valueToStr8u()  { sprintf(buf, "%3d", (int)mtx.ptr<uchar>(row, col)[cn]); }
+      |                                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/out.cpp:74:32: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   74 |         void valueToStr8s()  { sprintf(buf, "%3d", (int)mtx.ptr<schar>(row, col)[cn]); }
+      |                                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/out.cpp:75:32: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   75 |         void valueToStr16u() { sprintf(buf, "%d", (int)mtx.ptr<ushort>(row, col)[cn]); }
+      |                                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/out.cpp:76:32: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   76 |         void valueToStr16s() { sprintf(buf, "%d", (int)mtx.ptr<short>(row, col)[cn]); }
+      |                                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/out.cpp:77:32: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   77 |         void valueToStr32s() { sprintf(buf, "%d", mtx.ptr<int>(row, col)[cn]); }
+      |                                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/out.cpp:78:32: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   78 |         void valueToStr32f() { sprintf(buf, floatFormat, mtx.ptr<float>(row, col)[cn]); }
+      |                                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/out.cpp:79:32: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+   79 |         void valueToStr64f() { sprintf(buf, floatFormat, mtx.ptr<double>(row, col)[cn]); }
+      |                                ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/out.cpp:106:17: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+  106 |                 sprintf(floatFormat, "%%.%dg", std::min(precision, 20));
+      |                 ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/out.cpp:152:25: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+  152 |                         sprintf(buf, "\n(:, :, %d) = \n", cn+1);
+      |                         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/out.cpp:155:21: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+  155 |                     sprintf(buf, "(:, :, %d) = \n", cn+1);
+      |                     ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+10 warnings generated.
+/Users/joe/stage/opencv3/modules/core/src/persistence.cpp:396:5: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+  396 |     sprintf( buf, "%s(%d): %s", fs->filename, fs->lineno, err_msg );
+      |     ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/persistence.cpp:829:13: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+  829 |             sprintf( buf, "%d.", ivalue );
+      |             ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/persistence.cpp:834:13: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+  834 |             sprintf( buf, fmt, value );
+      |             ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/persistence.cpp:868:13: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+  868 |             sprintf( buf, "%d.", ivalue );
+      |             ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/persistence.cpp:873:13: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+  873 |             sprintf( buf, fmt, value );
+      |             ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/persistence.cpp:1530:13: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 1530 |             sprintf( buf, "!!%s %c", type_name, c );
+      |             ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/persistence.cpp:1540:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 1540 |         sprintf( buf, "!!%s", type_name );
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/persistence.cpp:1664:21: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 1664 |                     sprintf( data, "x%02x", c );
+      |                     ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/persistence.cpp:2553:21: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 2553 |                     sprintf( data, "#x%02x", (uchar)c );
+      |                     ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/persistence.cpp:2604:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 2604 |         sprintf( ptr, "<!-- %s -->", comment );
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/persistence.cpp:2639:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 2639 |         sprintf( ptr, "-->" );
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/persistence.cpp:2778:21: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 2778 |                     sprintf(buf, "<?xml version=\"1.0\" encoding=\"%s\"?>\n", encoding);
+      |                     ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/persistence.cpp:2992:5: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 2992 |     sprintf( dt, "%d%c", CV_MAT_CN(elem_type), icvTypeSymbol[CV_MAT_DEPTH(elem_type)] );
+      |     ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/persistence.cpp:3895:5: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 3895 |     sprintf( dt_buf, "%d%c", image->nChannels, icvTypeSymbol[depth] );
+      |     ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/persistence.cpp:4055:17: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 4055 |                 sprintf( header_dt_buf, "%ui", (unsigned)(extra_size/sizeof(int)) );
+      |                 ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/persistence.cpp:4057:17: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 4057 |                 sprintf( header_dt_buf, "%uu", extra_size );
+      |                 ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/persistence.cpp:4100:13: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 4100 |             sprintf( dt_buf, "%ui", (unsigned)(extra_elem_size/sizeof(int)) );
+      |             ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/persistence.cpp:4102:13: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 4102 |             sprintf( dt_buf, "%uu", extra_elem_size );
+      |             ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/persistence.cpp:4469:5: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 4469 |     sprintf( edge_dt_buf, "2if%s", edge_dt ? edge_dt : "" );
+      |     ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/persistence.cpp:4658:13: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 4658 |             sprintf( dst_edge_dt_buf, "%df%s", val-1, endptr );
+      |             ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/system.cpp:639:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+  639 |         sprintf( buf, "OpenCV Error: %s (%s) in %s, file %s, line %d",
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+/Users/joe/stage/opencv3/modules/core/src/system.cpp:772:5: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+  772 |     sprintf(buf, "Unknown %s code %d", status >= 0 ? "status":"error", status);
+      |     ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+20 warnings generated.
+2 warnings generated.
+/Users/joe/stage/opencv3/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosix.cpp:55:11: warning: 'sem_init' is deprecated [-Wdeprecated-declarations]
+   55 |     if (::sem_init (&_semaphore, 0, value))
+      |           ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/semaphore.h:55:42: note: 'sem_init' has been explicitly marked deprecated here
+   55 | int sem_init(sem_t *, int, unsigned int) __deprecated;
+      |                                          ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:214:40: note: expanded from macro '__deprecated'
+  214 | #define __deprecated    __attribute__((__deprecated__))
+      |                                        ^
+/Users/joe/stage/opencv3/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosix.cpp:62:19: warning: 'sem_destroy' is deprecated [-Wdeprecated-declarations]
+   62 |     int error = ::sem_destroy (&_semaphore);
+      |                   ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/semaphore.h:53:26: note: 'sem_destroy' has been explicitly marked deprecated here
+   53 | int sem_destroy(sem_t *) __deprecated;
+      |                          ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:214:40: note: expanded from macro '__deprecated'
+  214 | #define __deprecated    __attribute__((__deprecated__))
+      |                                        ^
+/Users/joe/stage/opencv3/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosix.cpp:94:11: warning: 'sem_getvalue' is deprecated [-Wdeprecated-declarations]
+   94 |     if (::sem_getvalue (&_semaphore, &value))
+      |           ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/semaphore.h:54:56: note: 'sem_getvalue' has been explicitly marked deprecated here
+   54 | int sem_getvalue(sem_t * __restrict, int * __restrict) __deprecated;
+      |                                                        ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:214:40: note: expanded from macro '__deprecated'
+  214 | #define __deprecated    __attribute__((__deprecated__))
+      |                                        ^
+3 warnings generated.
+ld: warning: ignoring duplicate libraries: '../../lib/libopencv_hal.a'
+/Users/joe/stage/opencv3/modules/imgproc/src/filter.cpp:4096:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 4096 |         sprintf(build_options, "-D cn=%d "
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+ld: warning: ignoring duplicate libraries: '../../lib/libopencv_hal.a'
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '../../lib/libopencv_hal.a'
+/Users/joe/stage/opencv3/modules/imgproc/src/smooth.cpp:1115:9: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 1115 |         sprintf(build_options, "-D cn=%d "
+      |         ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h:274:1: note: 'sprintf' has been explicitly marked deprecated here
+  274 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h:218:48: note: expanded from macro '__deprecated_msg'
+  218 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+1 warning generated.
+ld: warning: ignoring duplicate libraries: '../../lib/libopencv_hal.a'
+ld: warning: ignoring duplicate libraries: '../../lib/libopencv_hal.a'
+ld: warning: ignoring duplicate libraries: '../../lib/libopencv_hal.a'
+ld: warning: ignoring duplicate libraries: '../../lib/libopencv_hal.a'
+ld: warning: ignoring duplicate libraries: '../../3rdparty/lib/libzlib.a', '../../lib/libopencv_hal.a'
+/Users/joe/stage/opencv3/modules/videoio/src/cap_qtkit.mm:46:9: fatal error: 'QTKit/QTKit.h' file not found
+   46 | #import <QTKit/QTKit.h>
+      |         ^~~~~~~~~~~~~~~
+/Users/joe/stage/opencv3/modules/videoio/src/cap_qtkit.mm:46:9: note: did not find header 'QTKit.h' in framework 'QTKit' (loaded from '/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks')
+1 error generated.
+make[2]: *** [modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_qtkit.mm.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from /Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg.cpp:45:
+/Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg_impl.hpp:317:9: error: use of undeclared identifier 'avcodec_free_frame'; did you mean 'avcodec_get_name'?
+  317 |         avcodec_free_frame(&picture);
+      |         ^~~~~~~~~~~~~~~~~~
+      |         avcodec_get_name
+/opt/local/include/libavcodec/codec_id.h:586:13: note: 'avcodec_get_name' declared here
+  586 | const char *avcodec_get_name(enum AVCodecID id);
+      |             ^
+In file included from /Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg.cpp:45:
+/Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg_impl.hpp:317:28: error: cannot initialize a parameter of type 'enum AVCodecID' with an rvalue of type 'AVFrame **'
+  317 |         avcodec_free_frame(&picture);
+      |                            ^~~~~~~~
+/opt/local/include/libavcodec/codec_id.h:586:45: note: passing argument to parameter 'id' here
+  586 | const char *avcodec_get_name(enum AVCodecID id);
+      |                                             ^
+In file included from /Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg.cpp:45:
+/Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg_impl.hpp:632:23: error: use of undeclared identifier 'avcodec_alloc_frame'
+  632 |             picture = avcodec_alloc_frame();
+      |                       ^
+/Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg_impl.hpp:635:41: error: use of undeclared identifier 'PIX_FMT_BGR24'; did you mean 'AV_PIX_FMT_BGR24'?
+  635 |                     avpicture_get_size( PIX_FMT_BGR24,
+      |                                         ^~~~~~~~~~~~~
+      |                                         AV_PIX_FMT_BGR24
+/opt/local/include/libavutil/pixfmt.h:69:5: note: 'AV_PIX_FMT_BGR24' declared here
+   69 |     AV_PIX_FMT_BGR24,     ///< packed RGB 8:8:8, 24bpp, BGRBGR...
+      |     ^
+In file included from /Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg.cpp:45:
+/Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg_impl.hpp:638:29: error: use of undeclared identifier 'PIX_FMT_BGR24'; did you mean 'AV_PIX_FMT_BGR24'?
+  638 |                             PIX_FMT_BGR24, enc->width, enc->height );
+      |                             ^~~~~~~~~~~~~
+      |                             AV_PIX_FMT_BGR24
+/opt/local/include/libavutil/pixfmt.h:69:5: note: 'AV_PIX_FMT_BGR24' declared here
+   69 |     AV_PIX_FMT_BGR24,     ///< packed RGB 8:8:8, 24bpp, BGRBGR...
+      |     ^
+In file included from /Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg.cpp:45:
+/Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg_impl.hpp:738:67: error: use of undeclared identifier 'PIX_FMT_RGB24'; did you mean 'AV_PIX_FMT_RGB24'?
+  738 |     avpicture_fill((AVPicture*)&rgb_picture, rgb_picture.data[0], PIX_FMT_RGB24,
+      |                                                                   ^~~~~~~~~~~~~
+      |                                                                   AV_PIX_FMT_RGB24
+/opt/local/include/libavutil/pixfmt.h:68:5: note: 'AV_PIX_FMT_RGB24' declared here
+   68 |     AV_PIX_FMT_RGB24,     ///< packed RGB 8:8:8, 24bpp, RGBRGB...
+      |     ^
+In file included from /Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg.cpp:45:
+/Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg_impl.hpp:756:17: error: use of undeclared identifier 'PIX_FMT_BGR24'; did you mean 'AV_PIX_FMT_BGR24'?
+  756 |                 PIX_FMT_BGR24,
+      |                 ^~~~~~~~~~~~~
+      |                 AV_PIX_FMT_BGR24
+/opt/local/include/libavutil/pixfmt.h:69:5: note: 'AV_PIX_FMT_BGR24' declared here
+   69 |     AV_PIX_FMT_BGR24,     ///< packed RGB 8:8:8, 24bpp, BGRBGR...
+      |     ^
+In file included from /Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg.cpp:45:
+/Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg_impl.hpp:1110:15: error: use of undeclared identifier 'avcodec_alloc_frame'
+ 1110 |     picture = avcodec_alloc_frame();
+      |               ^
+/Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg_impl.hpp:1113:33: error: unknown type name 'PixelFormat'; did you mean 'AVPixelFormat'?
+ 1113 |     size = avpicture_get_size( (PixelFormat) pix_fmt, width, height);
+      |                                 ^~~~~~~~~~~
+      |                                 AVPixelFormat
+/opt/local/include/libavutil/pixfmt.h:64:6: note: 'AVPixelFormat' declared here
+   64 | enum AVPixelFormat {
+      |      ^
+In file included from /Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg.cpp:45:
+/Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg_impl.hpp:1122:25: error: unknown type name 'PixelFormat'; did you mean 'AVPixelFormat'?
+ 1122 |                        (PixelFormat) pix_fmt, width, height);
+      |                         ^~~~~~~~~~~
+      |                         AVPixelFormat
+/opt/local/include/libavutil/pixfmt.h:64:6: note: 'AVPixelFormat' declared here
+   64 | enum AVPixelFormat {
+      |      ^
+In file included from /Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg.cpp:45:
+/Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg_impl.hpp:1230:19: error: unknown type name 'PixelFormat'; did you mean 'AVPixelFormat'?
+ 1230 |     c->pix_fmt = (PixelFormat) pixel_format;
+      |                   ^~~~~~~~~~~
+      |                   AVPixelFormat
+/opt/local/include/libavutil/pixfmt.h:64:6: note: 'AVPixelFormat' declared here
+   64 | enum AVPixelFormat {
+      |      ^
+In file included from /Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg.cpp:45:
+/Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg_impl.hpp:1260:21: error: use of undeclared identifier 'CODEC_FLAG_GLOBAL_HEADER'
+ 1260 |         c->flags |= CODEC_FLAG_GLOBAL_HEADER;
+      |                     ^
+/Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg_impl.hpp:1284:30: error: use of undeclared identifier 'AVFMT_RAWPICTURE'
+ 1284 |     if (oc->oformat->flags & AVFMT_RAWPICTURE) {
+      |                              ^
+/Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg_impl.hpp:1405:26: error: use of undeclared identifier 'PIX_FMT_BGR24'; did you mean 'AV_PIX_FMT_BGR24'?
+ 1405 |     if (input_pix_fmt == PIX_FMT_BGR24) {
+      |                          ^~~~~~~~~~~~~
+      |                          AV_PIX_FMT_BGR24
+/opt/local/include/libavutil/pixfmt.h:69:5: note: 'AV_PIX_FMT_BGR24' declared here
+   69 |     AV_PIX_FMT_BGR24,     ///< packed RGB 8:8:8, 24bpp, BGRBGR...
+      |     ^
+In file included from /Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg.cpp:45:
+/Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg_impl.hpp:1410:31: error: use of undeclared identifier 'PIX_FMT_GRAY8'; did you mean 'AV_PIX_FMT_GRAY8'?
+ 1410 |     else if (input_pix_fmt == PIX_FMT_GRAY8) {
+      |                               ^~~~~~~~~~~~~
+      |                               AV_PIX_FMT_GRAY8
+/opt/local/include/libavutil/pixfmt.h:74:5: note: 'AV_PIX_FMT_GRAY8' declared here
+   74 |     AV_PIX_FMT_GRAY8,     ///<        Y        ,  8bpp
+      |     ^
+In file included from /Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg.cpp:45:
+/Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg_impl.hpp:1423:25: error: unknown type name 'PixelFormat'; did you mean 'AVPixelFormat'?
+ 1423 |                        (PixelFormat)input_pix_fmt, width, height);
+      |                         ^~~~~~~~~~~
+      |                         AVPixelFormat
+/opt/local/include/libavutil/pixfmt.h:64:6: note: 'AVPixelFormat' declared here
+   64 | enum AVPixelFormat {
+      |      ^
+In file included from /Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg.cpp:45:
+/Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg_impl.hpp:1429:47: error: unknown type name 'PixelFormat'; did you mean 'AVPixelFormat'?
+ 1429 |                                              (PixelFormat)input_pix_fmt,
+      |                                               ^~~~~~~~~~~
+      |                                               AVPixelFormat
+/opt/local/include/libavutil/pixfmt.h:64:6: note: 'AVPixelFormat' declared here
+   64 | enum AVPixelFormat {
+      |      ^
+In file included from /Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg.cpp:45:
+/Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg_impl.hpp:1447:25: error: unknown type name 'PixelFormat'; did you mean 'AVPixelFormat'?
+ 1447 |                        (PixelFormat)input_pix_fmt, width, height);
+      |                         ^~~~~~~~~~~
+      |                         AVPixelFormat
+/opt/local/include/libavutil/pixfmt.h:64:6: note: 'AVPixelFormat' declared here
+   64 | enum AVPixelFormat {
+      |      ^
+In file included from /Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg.cpp:45:
+/Users/joe/stage/opencv3/modules/videoio/src/cap_ffmpeg_impl.hpp:1472:35: error: use of undeclared identifier 'AVFMT_RAWPICTURE'
+ 1472 |         if( (oc->oformat->flags & AVFMT_RAWPICTURE) == 0 )
+      |                                   ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+ld: warning: ignoring duplicate libraries: '../../lib/libopencv_hal.a'
+20 errors generated.
+make[2]: *** [modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_ffmpeg.cpp.o] Error 1
+make[1]: *** [modules/videoio/CMakeFiles/opencv_videoio.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+ld: warning: ignoring duplicate libraries: '../../lib/libopencv_hal.a'
+make: *** [all] Error 2

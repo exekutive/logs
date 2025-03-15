@@ -1,0 +1,399 @@
+-- The CXX compiler identification is AppleClang 16.0.0.16000026
+-- The C compiler identification is AppleClang 16.0.0.16000026
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Performing Test HAVE_CXX_FSIGNED_CHAR
+-- Performing Test HAVE_CXX_FSIGNED_CHAR - Success
+-- Performing Test HAVE_C_FSIGNED_CHAR
+-- Performing Test HAVE_C_FSIGNED_CHAR - Success
+-- Performing Test HAVE_CXX_W
+-- Performing Test HAVE_CXX_W - Success
+-- Performing Test HAVE_C_W
+-- Performing Test HAVE_C_W - Success
+-- Performing Test HAVE_CXX_WALL
+-- Performing Test HAVE_CXX_WALL - Failed
+-- Performing Test HAVE_C_WALL
+-- Performing Test HAVE_C_WALL - Failed
+-- Performing Test HAVE_CXX_WERROR_RETURN_TYPE
+-- Performing Test HAVE_CXX_WERROR_RETURN_TYPE - Success
+-- Performing Test HAVE_C_WERROR_RETURN_TYPE
+-- Performing Test HAVE_C_WERROR_RETURN_TYPE - Success
+-- Performing Test HAVE_CXX_WERROR_NON_VIRTUAL_DTOR
+-- Performing Test HAVE_CXX_WERROR_NON_VIRTUAL_DTOR - Success
+-- Performing Test HAVE_C_WERROR_NON_VIRTUAL_DTOR
+-- Performing Test HAVE_C_WERROR_NON_VIRTUAL_DTOR - Success
+-- Performing Test HAVE_CXX_WERROR_ADDRESS
+-- Performing Test HAVE_CXX_WERROR_ADDRESS - Success
+-- Performing Test HAVE_C_WERROR_ADDRESS
+-- Performing Test HAVE_C_WERROR_ADDRESS - Success
+-- Performing Test HAVE_CXX_WERROR_SEQUENCE_POINT
+-- Performing Test HAVE_CXX_WERROR_SEQUENCE_POINT - Success
+-- Performing Test HAVE_C_WERROR_SEQUENCE_POINT
+-- Performing Test HAVE_C_WERROR_SEQUENCE_POINT - Success
+-- Performing Test HAVE_CXX_WFORMAT
+-- Performing Test HAVE_CXX_WFORMAT - Success
+-- Performing Test HAVE_C_WFORMAT
+-- Performing Test HAVE_C_WFORMAT - Success
+-- Performing Test HAVE_CXX_WERROR_FORMAT_SECURITY
+-- Performing Test HAVE_CXX_WERROR_FORMAT_SECURITY - Success
+-- Performing Test HAVE_C_WERROR_FORMAT_SECURITY
+-- Performing Test HAVE_C_WERROR_FORMAT_SECURITY - Success
+-- Performing Test HAVE_CXX_WMISSING_DECLARATIONS
+-- Performing Test HAVE_CXX_WMISSING_DECLARATIONS - Success
+-- Performing Test HAVE_C_WMISSING_DECLARATIONS
+-- Performing Test HAVE_C_WMISSING_DECLARATIONS - Success
+-- Performing Test HAVE_CXX_WMISSING_PROTOTYPES
+-- Performing Test HAVE_CXX_WMISSING_PROTOTYPES - Success
+-- Performing Test HAVE_C_WMISSING_PROTOTYPES
+-- Performing Test HAVE_C_WMISSING_PROTOTYPES - Success
+-- Performing Test HAVE_CXX_WSTRICT_PROTOTYPES
+-- Performing Test HAVE_CXX_WSTRICT_PROTOTYPES - Success
+-- Performing Test HAVE_C_WSTRICT_PROTOTYPES
+-- Performing Test HAVE_C_WSTRICT_PROTOTYPES - Success
+-- Performing Test HAVE_CXX_WUNDEF
+-- Performing Test HAVE_CXX_WUNDEF - Success
+-- Performing Test HAVE_C_WUNDEF
+-- Performing Test HAVE_C_WUNDEF - Success
+-- Performing Test HAVE_CXX_WINIT_SELF
+-- Performing Test HAVE_CXX_WINIT_SELF - Success
+-- Performing Test HAVE_C_WINIT_SELF
+-- Performing Test HAVE_C_WINIT_SELF - Success
+-- Performing Test HAVE_CXX_WPOINTER_ARITH
+-- Performing Test HAVE_CXX_WPOINTER_ARITH - Success
+-- Performing Test HAVE_C_WPOINTER_ARITH
+-- Performing Test HAVE_C_WPOINTER_ARITH - Success
+-- Performing Test HAVE_CXX_WSHADOW
+-- Performing Test HAVE_CXX_WSHADOW - Success
+-- Performing Test HAVE_C_WSHADOW
+-- Performing Test HAVE_C_WSHADOW - Success
+-- Performing Test HAVE_CXX_WSIGN_PROMO
+-- Performing Test HAVE_CXX_WSIGN_PROMO - Success
+-- Performing Test HAVE_C_WSIGN_PROMO
+-- Performing Test HAVE_C_WSIGN_PROMO - Success
+-- Performing Test HAVE_CXX_WNO_NARROWING
+-- Performing Test HAVE_CXX_WNO_NARROWING - Success
+-- Performing Test HAVE_C_WNO_NARROWING
+-- Performing Test HAVE_C_WNO_NARROWING - Success
+-- Performing Test HAVE_CXX_WNO_DELETE_NON_VIRTUAL_DTOR
+-- Performing Test HAVE_CXX_WNO_DELETE_NON_VIRTUAL_DTOR - Success
+-- Performing Test HAVE_C_WNO_DELETE_NON_VIRTUAL_DTOR
+-- Performing Test HAVE_C_WNO_DELETE_NON_VIRTUAL_DTOR - Success
+-- Performing Test HAVE_CXX_WNO_UNNAMED_TYPE_TEMPLATE_ARGS
+-- Performing Test HAVE_CXX_WNO_UNNAMED_TYPE_TEMPLATE_ARGS - Success
+-- Performing Test HAVE_C_WNO_UNNAMED_TYPE_TEMPLATE_ARGS
+-- Performing Test HAVE_C_WNO_UNNAMED_TYPE_TEMPLATE_ARGS - Success
+-- Performing Test HAVE_CXX_FDIAGNOSTICS_SHOW_OPTION
+-- Performing Test HAVE_CXX_FDIAGNOSTICS_SHOW_OPTION - Success
+-- Performing Test HAVE_C_FDIAGNOSTICS_SHOW_OPTION
+-- Performing Test HAVE_C_FDIAGNOSTICS_SHOW_OPTION - Success
+-- Performing Test HAVE_CXX_QUNUSED_ARGUMENTS
+-- Performing Test HAVE_CXX_QUNUSED_ARGUMENTS - Success
+-- Performing Test HAVE_C_QUNUSED_ARGUMENTS
+-- Performing Test HAVE_C_QUNUSED_ARGUMENTS - Success
+-- Performing Test HAVE_CXX_WNO_SEMICOLON_BEFORE_METHOD_BODY
+-- Performing Test HAVE_CXX_WNO_SEMICOLON_BEFORE_METHOD_BODY - Success
+-- Performing Test HAVE_C_WNO_SEMICOLON_BEFORE_METHOD_BODY
+-- Performing Test HAVE_C_WNO_SEMICOLON_BEFORE_METHOD_BODY - Success
+-- Performing Test HAVE_CXX_FNO_OMIT_FRAME_POINTER
+-- Performing Test HAVE_CXX_FNO_OMIT_FRAME_POINTER - Success
+-- Performing Test HAVE_C_FNO_OMIT_FRAME_POINTER
+-- Performing Test HAVE_C_FNO_OMIT_FRAME_POINTER - Success
+-- Performing Test HAVE_CXX_FVISIBILITY_HIDDEN
+-- Performing Test HAVE_CXX_FVISIBILITY_HIDDEN - Success
+-- Performing Test HAVE_C_FVISIBILITY_HIDDEN
+-- Performing Test HAVE_C_FVISIBILITY_HIDDEN - Success
+-- Performing Test HAVE_CXX_FVISIBILITY_INLINES_HIDDEN
+-- Performing Test HAVE_CXX_FVISIBILITY_INLINES_HIDDEN - Success
+-- Performing Test HAVE_C_FVISIBILITY_INLINES_HIDDEN
+-- Performing Test HAVE_C_FVISIBILITY_INLINES_HIDDEN - Success
+-- Looking for fseeko
+-- Looking for fseeko - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of off64_t
+-- Check size of off64_t - failed
+-- Performing Test HAVE_C_WNO_SHORTEN_64_TO_32
+-- Performing Test HAVE_C_WNO_SHORTEN_64_TO_32 - Success
+-- Performing Test HAVE_C_WNO_ATTRIBUTES
+-- Performing Test HAVE_C_WNO_ATTRIBUTES - Success
+-- Performing Test HAVE_C_WNO_STRICT_PROTOTYPES
+-- Performing Test HAVE_C_WNO_STRICT_PROTOTYPES - Success
+-- Performing Test HAVE_C_WNO_MISSING_PROTOTYPES
+-- Performing Test HAVE_C_WNO_MISSING_PROTOTYPES - Success
+-- Performing Test HAVE_C_WNO_MISSING_DECLARATIONS
+-- Performing Test HAVE_C_WNO_MISSING_DECLARATIONS - Success
+-- Looking for assert.h
+-- Looking for assert.h - found
+-- Looking for fcntl.h
+-- Looking for fcntl.h - found
+-- Looking for io.h
+-- Looking for io.h - not found
+-- Looking for jbg_newlen
+-- Looking for jbg_newlen - not found
+-- Looking for mmap
+-- Looking for mmap - found
+-- Looking for search.h
+-- Looking for search.h - found
+-- Looking for string.h
+-- Looking for string.h - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Performing Test HAVE_C_WNO_UNUSED_BUT_SET_VARIABLE
+-- Performing Test HAVE_C_WNO_UNUSED_BUT_SET_VARIABLE - Success
+-- Performing Test HAVE_C_WNO_UNDEF
+-- Performing Test HAVE_C_WNO_UNDEF - Success
+-- Performing Test HAVE_C_WNO_UNUSED
+-- Performing Test HAVE_C_WNO_UNUSED - Success
+-- Performing Test HAVE_C_WNO_SIGN_COMPARE
+-- Performing Test HAVE_C_WNO_SIGN_COMPARE - Success
+-- Performing Test HAVE_C_WNO_CAST_ALIGN
+-- Performing Test HAVE_C_WNO_CAST_ALIGN - Success
+-- Performing Test HAVE_C_WNO_SHADOW
+-- Performing Test HAVE_C_WNO_SHADOW - Success
+-- Performing Test HAVE_C_WNO_MAYBE_UNINITIALIZED
+-- Performing Test HAVE_C_WNO_MAYBE_UNINITIALIZED - Failed
+-- Performing Test HAVE_C_WNO_POINTER_TO_INT_CAST
+-- Performing Test HAVE_C_WNO_POINTER_TO_INT_CAST - Success
+-- Performing Test HAVE_C_WNO_INT_TO_POINTER_CAST
+-- Performing Test HAVE_C_WNO_INT_TO_POINTER_CAST - Success
+-- Performing Test HAVE_C_WNO_UNUSED_PARAMETER
+-- Performing Test HAVE_C_WNO_UNUSED_PARAMETER - Success
+-- Performing Test HAVE_CXX_WNO_MISSING_DECLARATIONS
+-- Performing Test HAVE_CXX_WNO_MISSING_DECLARATIONS - Success
+-- Performing Test HAVE_CXX_WNO_UNUSED_PARAMETER
+-- Performing Test HAVE_CXX_WNO_UNUSED_PARAMETER - Success
+-- Found WebP: /opt/homebrew/lib/libwebp.dylib
+-- Performing Test HAVE_C_WNO_IMPLICIT_FUNCTION_DECLARATION
+-- Performing Test HAVE_C_WNO_IMPLICIT_FUNCTION_DECLARATION - Success
+-- Performing Test HAVE_C_WNO_UNINITIALIZED
+-- Performing Test HAVE_C_WNO_UNINITIALIZED - Success
+-- Performing Test HAVE_C_WNO_UNUSED_BUT_SET_PARAMETER
+-- Performing Test HAVE_C_WNO_UNUSED_BUT_SET_PARAMETER - Success
+-- Performing Test HAVE_C_WNO_STRICT_OVERFLOW
+-- Performing Test HAVE_C_WNO_STRICT_OVERFLOW - Success
+-- Looking for semaphore.h
+-- Looking for semaphore.h - found
+-- Performing Test HAVE_CXX_WNO_SHADOW
+-- Performing Test HAVE_CXX_WNO_SHADOW - Success
+-- Performing Test HAVE_CXX_WNO_UNUSED
+-- Performing Test HAVE_CXX_WNO_UNUSED - Success
+-- Performing Test HAVE_CXX_WNO_SIGN_COMPARE
+-- Performing Test HAVE_CXX_WNO_SIGN_COMPARE - Success
+-- Performing Test HAVE_CXX_WNO_UNDEF
+-- Performing Test HAVE_CXX_WNO_UNDEF - Success
+-- Performing Test HAVE_CXX_WNO_UNINITIALIZED
+-- Performing Test HAVE_CXX_WNO_UNINITIALIZED - Success
+-- Performing Test HAVE_CXX_WNO_SWITCH
+-- Performing Test HAVE_CXX_WNO_SWITCH - Success
+-- Performing Test HAVE_CXX_WNO_PARENTHESES
+-- Performing Test HAVE_CXX_WNO_PARENTHESES - Success
+-- Performing Test HAVE_CXX_WNO_ARRAY_BOUNDS
+-- Performing Test HAVE_CXX_WNO_ARRAY_BOUNDS - Success
+-- Performing Test HAVE_CXX_WNO_EXTRA
+-- Performing Test HAVE_CXX_WNO_EXTRA - Success
+-- Checking for module 'gstreamer-base-1.0'
+--   Package 'gstreamer-base-1.0' not found
+-- Checking for module 'gstreamer-video-1.0'
+--   Package 'gstreamer-video-1.0' not found
+-- Checking for module 'gstreamer-app-1.0'
+--   Package 'gstreamer-app-1.0' not found
+-- Checking for module 'gstreamer-riff-1.0'
+--   Package 'gstreamer-riff-1.0' not found
+-- Checking for module 'gstreamer-pbutils-1.0'
+--   Package 'gstreamer-pbutils-1.0' not found
+-- Checking for module 'gstreamer-base-0.10'
+--   Package 'gstreamer-base-0.10' not found
+-- Checking for module 'gstreamer-video-0.10'
+--   Package 'gstreamer-video-0.10' not found
+-- Checking for module 'gstreamer-app-0.10'
+--   Package 'gstreamer-app-0.10' not found
+-- Checking for module 'gstreamer-riff-0.10'
+--   Package 'gstreamer-riff-0.10' not found
+-- Checking for module 'gstreamer-pbutils-0.10'
+--   Package 'gstreamer-pbutils-0.10' not found
+-- Checking for module 'libdc1394-2'
+--   Package 'libdc1394-2' not found
+-- Checking for module 'libdc1394'
+--   Package 'libdc1394' not found
+-- Checking for module 'libv4l1'
+--   Package 'libv4l1' not found
+-- Checking for module 'libv4l2'
+--   Package 'libv4l2' not found
+-- Looking for linux/videodev.h
+-- Looking for linux/videodev.h - not found
+-- Looking for linux/videodev2.h
+-- Looking for linux/videodev2.h - not found
+-- Looking for sys/videoio.h
+-- Looking for sys/videoio.h - not found
+-- Checking for module 'libavcodec'
+--   Found libavcodec, version 58.134.100
+-- Checking for module 'libavformat'
+--   Found libavformat, version 58.76.100
+-- Checking for module 'libavutil'
+--   Found libavutil, version 56.70.100
+-- Checking for module 'libswscale'
+--   Found libswscale, version 5.9.100
+-- Checking for module 'libavresample'
+--   Found libavresample, version 4.0.0
+-- Looking for libavformat/avformat.h
+-- Looking for libavformat/avformat.h - found
+-- Looking for ffmpeg/avformat.h
+-- Looking for ffmpeg/avformat.h - not found
+-- Checking for module 'libgphoto2'
+--   Package 'libgphoto2' not found
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- To enable PlantUML support, set PLANTUML_JAR environment variable or pass -DPLANTUML_JAR=<filepath> option to cmake
+-- Found PythonInterp: /Users/joe/stage/tutorial_env/bin/python (found suitable version "3.13.2", minimum required is "2.7")
+-- Found PythonLibs: /opt/homebrew/Frameworks/Python.framework/Versions/3.13/lib/libpython3.13.dylib (found suitable exact version "3.13.2")
+-- Found PythonInterp: /opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/bin/python3 (found suitable version "3.13.2", minimum required is "3.4")
+-- Found PythonLibs: /opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib (Required is exact version "3.13.2")
+-- Could NOT find JNI (missing: JAVA_INCLUDE_PATH JAVA_INCLUDE_PATH2 AWT) 
+-- Could NOT find Matlab (missing: MATLAB_MEX_SCRIPT MATLAB_INCLUDE_DIRS MATLAB_ROOT_DIR MATLAB_LIBRARIES MATLAB_LIBRARY_DIRS MATLAB_MEXEXT MATLAB_ARCH MATLAB_BIN) 
+-- VTK is not found. Please set -DVTK_DIR in CMake to VTK build directory, or to VTK install subdirectory with VTKConfig.cmake file
+-- Tesseract:   NO
+-- Assume that non-module dependency is available: -framework OpenCL (for module opencv_core)
+-- Performing Test HAVE_OBJCXX_FOBJC_EXCEPTIONS
+-- Performing Test HAVE_OBJCXX_FOBJC_EXCEPTIONS - Success
+-- Performing Test HAVE_CXX_WNO_DEPRECATED_DECLARATIONS
+-- Performing Test HAVE_CXX_WNO_DEPRECATED_DECLARATIONS - Success
+--   videoio: Removing WinRT API headers by default
+-- Tesseract:   NO
+-- 
+-- General configuration for OpenCV 3.0.0 =====================================
+--   Version control:               unknown
+-- 
+--   Platform:
+--     Host:                        Darwin 24.3.0 arm64
+--     CMake:                       3.31.6
+--     CMake generator:             Unix Makefiles
+--     CMake build tool:            /opt/homebrew/bin/gmake
+--     Configuration:               RELEASE
+-- 
+--   C/C++:
+--     Built as dynamic libs?:      YES
+--     C++ Compiler:                /Library/Developer/CommandLineTools/usr/bin/c++  (ver 16.0.0.16000026)
+--     C++ flags (Release):         -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG
+--     C++ flags (Debug):           -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden -g  -O0 -DDEBUG -D_DEBUG
+--     C Compiler:                  /Library/Developer/CommandLineTools/usr/bin/cc
+--     C flags (Release):           -I/opt/joe/include -I/opt/local/include -I/opt/homebrew/include   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG
+--     C flags (Debug):             -I/opt/joe/include -I/opt/local/include -I/opt/homebrew/include   -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -Wno-semicolon-before-method-body -fno-omit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden -g  -O0 -DDEBUG -D_DEBUG
+--     Linker flags (Release):      -L/opt/joe/lib -L/opt/local/lib -L/opt/homebrew/lib
+--     Linker flags (Debug):        -L/opt/joe/lib -L/opt/local/lib -L/opt/homebrew/lib
+--     Precompiled headers:         NO
+--     Extra dependencies:          -framework OpenCL -framework Cocoa /opt/homebrew/lib/libwebp.dylib avcodec avformat avutil swscale avresample /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/libbz2.tbd -framework VideoDecodeAcceleration bz2 -framework QTKit -framework QuartzCore -framework AppKit
+--     3rdparty dependencies:       libjpeg libpng libtiff libjasper IlmImf zlib
+-- 
+--   OpenCV modules:
+--     To be built:                 hal core flann imgproc ml photo reg surface_matching video face imgcodecs shape videoio highgui objdetect optflow superres tracking ts ximgproc xobjdetect xphoto adas bgsegm bioinspired features2d latentsvm line_descriptor saliency text calib3d ccalib datasets rgbd videostab xfeatures2d stitching python3
+--     Disabled:                    world contrib_world
+--     Disabled by dependency:      -
+--     Unavailable:                 cudaarithm cudabgsegm cudacodec cudafeatures2d cudafilters cudaimgproc cudalegacy cudaobjdetect cudaoptflow cudastereo cudawarping cudev java python2 viz cvv matlab
+-- 
+--   GUI: 
+--     QT:                          NO
+--     Cocoa:                       YES
+--     OpenGL support:              NO
+--     VTK support:                 NO
+-- 
+--   Media I/O: 
+--     ZLib:                        build (ver 1.2.8)
+--     JPEG:                        build (ver 90)
+--     WEBP:                        /opt/homebrew/lib/libwebp.dylib (ver encoder: 0x0210)
+--     PNG:                         build (ver 1.5.12)
+--     TIFF:                        build (ver 42 - 4.0.2)
+--     JPEG 2000:                   build (ver 1.900.1)
+--     OpenEXR:                     build (ver 1.7.1)
+--     GDAL:                        NO
+-- 
+--   Video I/O:
+--     DC1394 1.x:                  NO
+--     DC1394 2.x:                  NO
+--     FFMPEG:                      YES
+--       codec:                     YES (ver 58.134.100)
+--       format:                    YES (ver 58.76.100)
+--       util:                      YES (ver 56.70.100)
+--       swscale:                   YES (ver 5.9.100)
+--       resample:                  YES (ver 4.0.0)
+--       gentoo-style:              YES
+--     GStreamer:                   NO
+--     OpenNI:                      NO
+--     OpenNI PrimeSensor Modules:  NO
+--     OpenNI2:                     NO
+--     PvAPI:                       NO
+--     GigEVisionSDK:               NO
+--     QuickTime:                   NO
+--     QTKit:                       YES
+--     V4L/V4L2:                    NO/NO
+--     XIMEA:                       NO
+--     gPhoto2:                     NO
+-- 
+--   Other third-party libraries:
+--     Use IPP:                     NO
+--     Use Eigen:                   NO
+--     Use TBB:                     NO
+--     Use OpenMP:                  NO
+--     Use GCD                      YES
+--     Use Concurrency              NO
+--     Use C=:                      NO
+--     Use pthreads for parallel for:
+--                                  NO
+--     Use Cuda:                    NO
+--     Use OpenCL:                  YES
+-- 
+--   OpenCL:
+--     Version:                     static
+--     libraries:                   -framework OpenCL
+--     Use AMDFFT:                  NO
+--     Use AMDBLAS:                 NO
+-- 
+--   Python 2:
+--     Interpreter:                 /Users/joe/stage/tutorial_env/bin/python (ver 3.13.2)
+-- 
+--   Python 3:
+--     Interpreter:                 /opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/bin/python3 (ver 3.13.2)
+--     Libraries:                   /opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib
+--     numpy:                       /Users/joe/stage/tutorial_env/lib/python3.13/site-packages/numpy/_core/include (ver 2.2.3)
+--     packages path:               lib/python3.13/site-packages
+-- 
+--   Python (for build):            /Users/joe/stage/tutorial_env/bin/python
+-- 
+--   Java:
+--     ant:                         NO
+--     JNI:                         NO
+--     Java wrappers:               NO
+--     Java tests:                  NO
+-- 
+--   Matlab:
+--     mex:                         NO
+-- 
+--   Documentation:
+--     Doxygen:                     NO
+--     PlantUML:                    NO
+-- 
+--   Tests and samples:
+--     Tests:                       YES
+--     Performance tests:           YES
+--     C/C++ Examples:              YES
+-- 
+--   Install path:                  /usr/local
+-- 
+--   cvconfig.h is in:              /Users/joe/stage/opencv3/build
+-- -----------------------------------------------------------------
+-- 
+-- Configuring done (13.3s)
+-- Generating done (1.4s)
+-- Build files have been written to: /Users/joe/stage/opencv3/build

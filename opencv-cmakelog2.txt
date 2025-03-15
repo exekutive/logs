@@ -1,0 +1,135 @@
+>cmake -D CMAKE_BUILD_TYPE=RELEASE \
+-D CMAKE_INSTALL_PREFIX=/usr/local \
+-D OPENCV_EXTRA_MODULES_PATH=/Users/joe/stage/opencv3-contrib/modules  \
+-D CMAKE_SYSTEM_PROCESSOR=arm64 \
+-D CMAKE_OSX_ARCHITECTURES=arm64 \
+-D PYTHON3_LIBRARY=/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib \
+-D PYTHON3_INCLUDE_DIR=/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/include \
+-D PYTHON3_EXECUTABLE=/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/bin/python3 \
+-D BUILD_opencv_python2=OFF \
+-D BUILD_opencv_python3=ON \
+-D INSTALL_PYTHON_EXAMPLES=ON \
+-D INSTALL_C_EXAMPLES=OFF \
+-D OPENCV_ENABLE_NONFREE=ON \
+-D BUILD_EXAMPLES=ON \
+-D PYTHON3_NUMPY_INCLUDE_DIRS=/Users/joe/stage/tutorial_env/lib/python3.13/site-packages/numpy/_core/include/ \
+/Users/joe/stage/opencv3 > /Users/joe/stage/cmakelog.txt
+CMake Deprecation Warning at CMakeLists.txt:22 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Deprecation Warning at CMakeLists.txt:69 (cmake_policy):
+  The OLD behavior for policy CMP0022 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+CMake Deprecation Warning at CMakeLists.txt:74 (cmake_policy):
+  The OLD behavior for policy CMP0026 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+CMake Deprecation Warning at CMakeLists.txt:79 (cmake_policy):
+  The OLD behavior for policy CMP0042 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+CMake Warning (dev) at cmake/OpenCVPCHSupport.cmake:17 (EXEC_PROGRAM):
+  Policy CMP0153 is not set: The exec_program command should not be called.
+  Run "cmake --help-policy CMP0153" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Use execute_process() instead.
+Call Stack (most recent call first):
+  CMakeLists.txt:503 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/FindCUDA.cmake:642 (elseif):
+  Policy CMP0054 is not set: Only interpret if() arguments as variables or
+  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  Quoted variables like "ARM" will no longer be dereferenced when the policy
+  is set to NEW.  Since the policy is not set the OLD behavior will be used.
+Call Stack (most recent call first):
+  cmake/OpenCVUtils.cmake:24 (find_package)
+  cmake/OpenCVDetectCUDA.cmake:16 (find_host_package)
+  cmake/OpenCVFindLibsPerf.cmake:32 (include)
+  CMakeLists.txt:526 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/OpenCVUtils.cmake:24 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  cmake/OpenCVDetectPython.cmake:50 (find_host_package)
+  cmake/OpenCVDetectPython.cmake:219 (find_python)
+  CMakeLists.txt:551 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/OpenCVUtils.cmake:24 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  cmake/OpenCVDetectPython.cmake:90 (find_host_package)
+  cmake/OpenCVDetectPython.cmake:219 (find_python)
+  CMakeLists.txt:551 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import os; os.environ['DISTUTILS_USE_SDK']='1'; import numpy.distutils; print(os.pathsep.join(numpy.distutils.misc_util.get_numpy_include_dirs()))
+                                                    ^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'numpy.distutils'
+CMake Warning (dev) at cmake/OpenCVUtils.cmake:24 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  cmake/OpenCVDetectPython.cmake:50 (find_host_package)
+  cmake/OpenCVDetectPython.cmake:227 (find_python)
+  CMakeLists.txt:551 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at cmake/OpenCVUtils.cmake:24 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  cmake/OpenCVDetectPython.cmake:90 (find_host_package)
+  cmake/OpenCVDetectPython.cmake:227 (find_python)
+  CMakeLists.txt:551 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+<string>:1: DeprecationWarning: SO is deprecated, use EXT_SUFFIX
+  import distutils.sysconfig; print(distutils.sysconfig.get_config_var('SO'))
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    OPENCV_ENABLE_NONFREE
